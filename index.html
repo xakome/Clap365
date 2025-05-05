@@ -1,39 +1,222 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="CLAP365 - Luxury Private Tours in Yucatán">
-  <title>CLAP365 | Luxury Private Tours</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLAP365 - Private Tours in Yucatán</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F5F2E9;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+.header {
+  background-color: #006847;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  color: #fff;
+}
+
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.slogan {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #e5f7f3;
+}
+
+
+.hero h1 {
+  font-size: 2.2rem;
+  color: #006847;
+  margin-bottom: 1rem;
+}
+
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+
+.video-placeholder {
+  width: 320px;
+  height: 180px;
+  background-color: #ccc;
+  margin: 0 auto 1.5rem auto;
+  position: relative;
+  border: 3px solid #006847;
+  border-radius: 10px;
+}
+
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  background: #006847;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.view-tours-btn {
+  background-color: #006847;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 30px;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+
+.view-tours-btn:hover {
+  background-color: #004d36;
+}
+
+
+.tours-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+
+
+.tour-card {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+
+.tour-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.tour-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+
+.tour-card h3 {
+  font-size: 1.3rem;
+  margin: 1rem 0 0.5rem;
+  color: #006847;
+}
+
+
+.tour-card p {
+  font-size: 1rem;
+  padding: 0 1rem 1rem;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #006847;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+
+.footer a {
+  color: #f0f0f0;
+  text-decoration: underline;
+}
+
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+
+  </style>
 </head>
 <body>
-  <header class="header">
-    <div class="logo">CLAP365</div>
-    <div class="slogan">el eco de tus sueños</div>
-  </header>
-  <section class="hero">
-    <h1>Discover the Best of Yucatán with Private Luxury Tours</h1>
-    <p>Experience Chichén Itzá, Uxmal, Izamal, and more with personalized service and expert guides.</p>
-    <div class="video-placeholder">
-      <button class="play-button">&#9658;</button>
-    </div>
-    <a href="#tours" class="view-tours-btn">View Tours</a>
-  </section>
-  <section id="tours" class="tours-section">
-    <div class="tour-card">
-      <img src="images/chichen.jpg" alt="Chichen Itza">
-      <h3>Chichén Itzá</h3>
-      <p>A wonder of the world with deep Mayan history and stunning architecture.</p>
-    </div>
-    <div class="tour-card">
-      <img src="images/uxmal.jpg" alt="Uxmal">
-      <h3>Uxmal</h3>
-      <p>Explore the Puuc route and discover the grandeur of Uxmal.</p>
-    </div>
-  </section>
-  <footer class="footer">
-    <p>&copy; 2025 CLAP365 | <a href="#">Privacy Policy</a></p>
-  </footer>
+  <header class="header">
+    <div class="logo">CLAP365</div>
+    <p class="slogan">El eco de tus sueños</p>
+  </header> <section class="hero">
+    <h1>Exclusive Private Tours in Yucatán</h1>
+    <p>Discover the rich culture, history, and natural beauty of the Yucatán Peninsula with our tailor-made private tours</p>
+    <div class="video-placeholder">
+      <button class="play-button">&#9658;</button>
+    </div>
+    <a href="#tours" class="view-tours-btn">View Tours</a>
+  </section> <section id="tours" class="tours-section">
+    <div class="tour-card">
+      <img src="images/chichen.jpg" alt="Chichén Itzá" />
+      <h3>Chichén Itzá</h3>
+      <p>Tour to Chichén Itzá with cenote and Mayan village</p>
+    </div><div class="tour-card">
+  <img src="images/sisal.jpg" alt="Sisal" />
+  <h3>Sisal</h3>
+  <p>Kayak through mangroves to see flamingos, visit a water spring, bike ride, learn the port's history, explore Empress Way, and enjoy beach time</p>
+</div>
+
+
+<div class="tour-card">
+  <img src="images/uxmal.jpg" alt="Uxmal" />
+  <h3>Uxmal</h3>
+  <p>Tour Uxmal, visit a henequen hacienda, and see the highest viewpoint on the peninsula</p>
+</div>
+
+
+<div class="tour-card">
+  <img src="images/izamal.jpg" alt="Izamal" />
+  <h3>Izamal</h3>
+  <p>Visit the yellow city and join an artisan workshop</p>
+</div>
+
+
+<div class="tour-card">
+  <img src="images/merida.jpg" alt="Mérida City" />
+  <h3>Mérida City Tour</h3>
+  <p>Casa Montejo, Cathedral, murals, market, city museum, Paseo Montejo, and colonial mansions</p>
+</div>
+
+
+  </section> <footer class="footer">
+    <p>Follow us:
+      <a href="https://www.instagram.com/clap_365" target="_blank">Instagram</a> |
+      <a href="https://www.tiktok.com/@clap_365" target="_blank">TikTok</a>
+    </p>
+    <p>&copy; 2025 CLAP365. All rights reserved.</p>
+  </footer>
 </body>
 </html>
