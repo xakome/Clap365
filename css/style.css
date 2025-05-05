@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.header {
+  background-color: #04364A;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #176B87;
+  color: white;
+}
+
+.video-placeholder {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.view-tours-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #64CCC5;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tours-section {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tour-card {
+  background: #fff;
+  border: 2px solid #04364A;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 280px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.tour-card img {
+  width: 100%;
+  border-radius: 12px;
+  border: 3px solid #04364A;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #04364A;
+  color: white;
+}
